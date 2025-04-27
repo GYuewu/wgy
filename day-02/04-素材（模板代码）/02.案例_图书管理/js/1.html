@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="../lib/form-serialize.js"></script>
+    <script>
+        const obj = {
+            name: 'why',
+            age: 18,
+            height: 1.88,
+
+        }
+        const obj2 = {
+            name2: 'kobe',
+            age2: 30,
+            height2: 1.98,
+            ...obj
+        }
+        console.log(obj2);
+        
+        
+    </script>
+</body>
+</html>
